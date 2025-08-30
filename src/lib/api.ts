@@ -1,6 +1,6 @@
 import { ChatResponse, RateResponse, SessionHistoryResponse, SearchFilters } from '@/types';
 
-const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'https://freight-forward-backend-production.up.railway.app';
+const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'https://web-production-a2d48.up.railway.app';
 
 class ApiClient {
   private baseUrl: string;
@@ -62,3 +62,4 @@ class ApiClient {
 }
 
 export const api = new ApiClient(API_BASE_URL);
+
